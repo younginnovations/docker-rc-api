@@ -17,6 +17,7 @@ RUN apt-get install -y \
                     php5-mcrypt \
                     php5-readline 
 
+ADD conf/apache_default /etc/apache2/sites-available/000-default.conf
 RUN a2enmod rewrite
 RUN a2enmod php5
 RUN ln -s /etc/php5/mods-available/mcrypt.ini /etc/php5/apache2/conf.d/20-mcrypt.ini

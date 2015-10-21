@@ -9,15 +9,15 @@ This repository contains the Dockerfile for [ResouceContracts API component](htt
 ### Installation
 
 1. Install [Docker](https://www.docker.com/).
-2. Clone this repo `git clone https://github.com/younginnovations/docker-rc-elasticsearch.git`
-3. Go to the cloned folder `docker-rc-elasticsearch`
+2. Clone this repo `git clone https://github.com/younginnovations/docker-rc-api.git`
+3. Go to the cloned folder `docker-rc-api`
 4. Copy `conf/.env.example` to `conf/.env` with proper configurations
-5. Build an image from Dockerfile `docker build -t=rc-es .`
+5. Build an image from Dockerfile `docker build -t=rc-api .`
 
 ### Usage
 
 * Run `docker run -p 80:80 -d rc-es`
-* Access the system from the browser at http://xxx/rc-api/public/index.php
+* Access the system from the browser at http://xxx/rc-api/index.php
 
 ### TODO
 
