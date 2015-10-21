@@ -16,7 +16,7 @@ This repository contains the Dockerfile for [ResouceContracts API component](htt
 
 ### Usage
 
-* Run `docker run -p 80:80 -d rc-es`
+* Run `docker run -p 80:80 -d rc-api`
 * Access the system from the browser at http://xxx/rc-api/index.php
 
 ### TODO
